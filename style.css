@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    background-color: #3C3C3C;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+    width: 40%;
+    float: left;
+    font-size: 40px;
+}
+.logo:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+    width: 60%;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+nav ul li a:hover, a.active{
+    background-color: #3352F2;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    height: 30px;
+    margin-bottom: 30px;
+    
+    }
+    #link-container{
+        float: right;
+    }
+    
+    .link-header a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #3C3C3C ;
+    }
+    
+    .link-header{
+        float:left;
+        padding-right: 5px;
+        margin-right: 50px;
+        margin-top: 2%;
+    }
+    #web-name{
+        float: left;
+        color:orange;
+    }
+    #form-container{
+        padding: 20px 200px ;
+        display: flex;
+        margin-top: 150px;
+    }
+    #search{
+        background-color:coral;
+        color: white;
+    }
+    #error{
+        text-align: center;
+        color: salmon;
+        margin-top: 40px;
+    }
+    #search-results{
+        padding: 100px;
+        display: grid;
+        grid-template-columns: repeat(6,4fr);
+        grid-gap: 3%;
+    }
+    .mealDiv a{
+        display: block;
+       padding-bottom: 20px;
+       text-decoration: none;
+       color: black;
+       font-size: x-large;
+       font-weight:600
+
+    }
+    .mealDiv{
+       text-align: center;
+       background-color:#F8F7F5;
+    }
+    .mealDiv img{
+        display: block;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #details{
+        margin-top: 40px;
+        display: block;
+        margin-left: 40%;  
+    }
+    #details img{
+        display: block;
+        width: 30%;
+    }
+    #details h2{
+        padding: 20px 0px;
+        font-weight: bold;
+    }

@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cooking Master</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Nav-->
+    <header class="container">
+        <nav>
+            <a class="logo" href="index.html">Cooking Master</a>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+       <div id="form-container">
+        <input id="meal-input" class="form-control me-2" type="search" placeholder="Search for Meal..." aria-label="Search">
+        <button onclick="loadData()" class="btn btn-warning" type="submit">Search</button>
+       </div>
+       <div id="meal-details">
     
-
-
-
-    <script src="app.js">
-
-
-
-    </script>
+       </div>
+    
+       <div id="search-results">
+    
+       </div>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
