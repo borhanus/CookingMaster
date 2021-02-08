@@ -12,27 +12,26 @@
 </head>
 <body>
     <!--Nav-->
-    <header class="container">
-        <nav>
-            <a class="logo" href="index.html">Cooking Master</a>
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header class="container">
+            <nav>
+                <a class="logo" href="index.html">Cooking Master</a>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
 
     <!--Main-->
     <main>
-       <div id="form-container">
-        <input id="meal-input" class="form-control me-2" type="search" placeholder="Search for Meal..." aria-label="Search">
-        <button onclick="loadData()" class="btn btn-warning" type="submit">Search</button>
-       </div>
-       <div id="meal-details"></div>
-    
-       <div id="search-results"></div>
+        <div id="form-container">
+            <input id="meal-input" class="form-control me-2 searchBox" type="search" placeholder="Search for Meal..." aria-label="Search">
+            <button onclick="loadData()" class="btn btn-warning" type="submit">Search</button>
+        </div>
+        <div id="meal-details"></div>
+        <div id="search-results"></div>
     </main>
 
     <script src="app.js"></script>
