@@ -8,7 +8,7 @@ const loadData = search =>{
     .catch(error =>{
         const searchDetails = document.getElementById("meal-details");
         const notFoundMessage = `
-        <h4 id= "error"> Sorry! "${mealName}" is not available right now.</h4>
+        <h4 id= "error"> "We do not serve ${mealName}"</h4>
         `;
         searchDetails.innerHTML= notFoundMessage;
         const searchResults = document.getElementById("search-results");
@@ -39,7 +39,6 @@ const loadData = search =>{
 }
 
 
-// for get details
 const displayDetails = mealID =>{
     const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}`;
     fetch(url)
